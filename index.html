@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>FPM</title>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+
+  </head>
+  <body>
+
+    <div id="sidebar" class="sidebar">
+        <div>
+            <div class="sideBarTitle">
+                <h3>Menu</h3>
+                <p>©AdiTenea.net</p>
+            </div>
+            <div class="btn-group-vertical buttonGroup">
+                <button class="btn btn-primary sideButton" id="panel1Button">
+                    Projects
+                </button>
+                <button class="btn btn-primary sideButton" id="panel2Button">
+                    Create Project
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="content" class="content">
+        <div id="panel-1">
+            <h1>Hello to your projects list!</h1>
+           <p>Here is the perfect place to store your projects roots!</p><br><hr><br><br>
+            <div id="projectsTable"></div>
+        </div>
+    
+        <div id="panel-2">
+            <h1>Add a new project!</h1>
+            <p>Here is the perfect place to store your projects roots!</p><br><hr><br><br>
+             <div>
+                 <form id="newProjectForm">
+                     <div class="form-group">
+                       <label for="title">Title:</label>
+                       <input type="text" class="form-control" id="title">
+                     </div>
+                     <div class="form-group">
+                         <label for="author">Author:</label>
+                         <input type="text" class="form-control" id="author">
+                     </div>
+                     <div class="form-group">
+                         <label for="projectPath">Root Path:</label>
+                         <input type="text" class="form-control" id="projectPath">
+                     </div>
+                     <div class="form-group">
+                         <label for="description">Description:</label>
+                         <textarea type="text" class="form-control" id="description"></textarea>
+                     </div><br>
+                     <a id="submitNewProjectButton" class="btn btn-primary">Add</a>
+                   </form>
+             </div>
+            
+        </div>
+    
+        <div id="panel-3">
+    
+        </div>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+
+</html>
+
+

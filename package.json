@@ -1,0 +1,20 @@
+{
+  "name": "fast-project-manager",
+  "version": "1.0.0",
+  "description": "Fast Project Manager: A tool designed to make easier the vscode development.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adi Tenea",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.10",
+    "electron-packager": "^15.5.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0"
+  }
+}

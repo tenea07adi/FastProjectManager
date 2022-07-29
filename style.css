@@ -1,0 +1,54 @@
+.sidebar{
+    width:20%;
+    min-height: 1000px;
+    position:fixed;
+    background-color: rgba(75, 117, 173,1); /* 65, 101, 150 */
+}
+
+.content{
+    width:80%; 
+    margin-left:20%;
+    min-height: 1000px;
+    background-color: rgba(242, 242, 242,1);
+    padding: 70px;
+}
+
+.buttonGroup{
+    width: 100%;
+    border-radius: 0%;
+    margin-top:50px;
+}
+
+.sideBarTitle{
+    background-color: rgb(65, 101, 150);
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.sideButton{
+    border-left: 5px solid rgb(65, 101, 150);
+}
+
+
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
